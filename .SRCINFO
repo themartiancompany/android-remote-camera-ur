@@ -1,0 +1,17 @@
+pkgbase = android-remote-camera
+	pkgdesc = Android camera recorder.
+	pkgver = 0.0.0.0.0.0.0.0.0.0.0.0.0.1
+	pkgrel = 1
+	url = https://github.com/themartiancompany/android-remote-camera
+	arch = any
+	license = AGPL3
+	checkdepends = shellcheck
+	makedepends = make
+	depends = android-recorder
+	depends = libcrash-bash
+	depends = record-tools
+	source = android-remote-camera-da25be8351301cf2595916353e53ced8ca5df744.zip::https://github.com/themartiancompany/android-remote-camera/archive/da25be8351301cf2595916353e53ced8ca5df744.zip
+	validpgpkeys = 97E989E6CF1D2C7F7A41FF9F95684DBE23D6A3E9
+	sha256sums = d4f4179c6e4ce1702c5fe6af132669e8ec4d0378428f69518f2926b969663a91
+
+pkgname = android-remote-camera
