@@ -6,11 +6,11 @@
 _offline="false"
 _git="false"
 pkgname=android-remote-camera
-pkgver=0.0.0.0.0.0.0.0.0.0.0.0.0.1
-_commit="da25be8351301cf2595916353e53ced8ca5df744"
+pkgver=0.0.0.0.0.0.0.0.0.0.0.0.0.1.1
+_commit="5b3e06f024b089a173a01c3387bbf0f9d2f83651"
 pkgrel=1
 _pkgdesc=(
-  "Android camera recorder."
+  "Android remote camera."
 )
 pkgdesc="${_pkgdesc[*]}"
 arch=(
@@ -23,9 +23,9 @@ license=(
   AGPL3
 )
 depends=(
-  "android-recorder"
+  "android-vnc-viewer"
+  "dynssh"
   "libcrash-bash"
-  "record-tools"
 )
 _os="$( \
   uname \
@@ -70,7 +70,7 @@ _tarname="${pkgname}-${_tag}"
     _sum="d4f4179c6e4ce1702c5fe6af132669e8ec4d0378428f69518f2926b969663a91"
   elif [[ "${_tag_name}" == "commit" ]]; then
     _tar="${_tarname}.zip::${_url}/archive/${_commit}.zip"
-    _sum="d4f4179c6e4ce1702c5fe6af132669e8ec4d0378428f69518f2926b969663a91"
+    _sum="dea6b8059f7b98f8d3aa6c3dc2ffb98447a109acdf957068ba7ec38f557ca2e8"
   fi && \
     source+=(
       "${_tar}"
