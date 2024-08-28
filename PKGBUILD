@@ -6,8 +6,8 @@
 _offline="false"
 _git="false"
 pkgname=android-remote-camera
-pkgver=0.0.0.0.0.0.0.0.0.0.0.0.0.1.1.1
-_commit="45ba9c20daae9601b59fefd7bf9f1051e7fe7c58"
+pkgver=0.0.0.0.0.0.0.0.0.0.0.0.0.1.1.1.1
+_commit="ae6cd27063112d74aa37b105b4271ced1674de44"
 pkgrel=1
 _pkgdesc=(
   "Android remote camera."
