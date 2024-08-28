@@ -7,7 +7,7 @@ _offline="false"
 _git="false"
 pkgname=android-remote-camera
 pkgver=0.0.0.0.0.0.0.0.0.0.0.0.0.1.1.1.1.1
-_commit="ae6cd27063112d74aa37b105b4271ced1674de44"
+_commit="c005115775d6aa8a313abdbc9f4a89090593f8f5"
 pkgrel=1
 _pkgdesc=(
   "Android remote camera."
@@ -71,7 +71,7 @@ _tarname="${pkgname}-${_tag}"
     _sum="d4f4179c6e4ce1702c5fe6af132669e8ec4d0378428f69518f2926b969663a91"
   elif [[ "${_tag_name}" == "commit" ]]; then
     _tar="${_tarname}.zip::${_url}/archive/${_commit}.zip"
-    _sum="65f9f332259a8fbc6a04b82c4dc82d9beb707c44e824f9063a998032f6623d87"
+    _sum="772555dbe81d8d93f2348aea3112a8571132fef83dffea376448c25664bc100d"
   fi && \
     source+=(
       "${_tar}"

@@ -1,6 +1,6 @@
 pkgbase = android-remote-camera
 	pkgdesc = Android remote camera.
-	pkgver = 0.0.0.0.0.0.0.0.0.0.0.0.0.1.1.1.1
+	pkgver = 0.0.0.0.0.0.0.0.0.0.0.0.0.1.1.1.1.1
 	pkgrel = 1
 	url = https://github.com/themartiancompany/android-remote-camera
 	arch = any
@@ -10,8 +10,9 @@ pkgbase = android-remote-camera
 	depends = android-vnc-viewer
 	depends = dynssh
 	depends = libcrash-bash
-	source = android-remote-camera-ae6cd27063112d74aa37b105b4271ced1674de44.zip::https://github.com/themartiancompany/android-remote-camera/archive/ae6cd27063112d74aa37b105b4271ced1674de44.zip
+	depends = unused-local-port
+	source = android-remote-camera-c005115775d6aa8a313abdbc9f4a89090593f8f5.zip::https://github.com/themartiancompany/android-remote-camera/archive/c005115775d6aa8a313abdbc9f4a89090593f8f5.zip
 	validpgpkeys = 97E989E6CF1D2C7F7A41FF9F95684DBE23D6A3E9
-	sha256sums = 65f9f332259a8fbc6a04b82c4dc82d9beb707c44e824f9063a998032f6623d87
+	sha256sums = 772555dbe81d8d93f2348aea3112a8571132fef83dffea376448c25664bc100d
 
 pkgname = android-remote-camera
