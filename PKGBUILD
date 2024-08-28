@@ -6,7 +6,7 @@
 _offline="false"
 _git="false"
 pkgname=android-remote-camera
-pkgver=0.0.0.0.0.0.0.0.0.0.0.0.0.1.1.1.1
+pkgver=0.0.0.0.0.0.0.0.0.0.0.0.0.1.1.1.1.1
 _commit="ae6cd27063112d74aa37b105b4271ced1674de44"
 pkgrel=1
 _pkgdesc=(
@@ -26,6 +26,7 @@ depends=(
   "android-vnc-viewer"
   "dynssh"
   "libcrash-bash"
+  "unused-local-port"
 )
 _os="$( \
   uname \
